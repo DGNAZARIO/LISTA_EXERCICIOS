@@ -22,7 +22,6 @@ lucro = Recebido / consumo_medio
 print(consumo_medio)
 print(lucro)
 
-import datetime
 
 # Dicionário para armazenar viagens
 viagens = []
