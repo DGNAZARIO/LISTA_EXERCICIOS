@@ -12,12 +12,12 @@ km_inicial = float(input("odômetro (Km) no inicio do dia? "))
 km_final = float(input("odômetro (Km) no final do dia? "))
 abastecimento = float(input("Quantos litros de gasolina vc abasteceu? "))
 Recebido = float(input("Qual foi a receita obtida hoje? "))
-gasolina = 4,87 
+GASOLINA = 4,87 
 
 
 km_rodado = km_inicial / km_final
 consumo_por_litro = km_rodado / abastecimento
-consumo_medio = consumo_por_litro * gasolina
+consumo_medio = consumo_por_litro * GASOLINA
 lucro = Recebido / consumo_medio
 print(consumo_medio)
 print(lucro)
