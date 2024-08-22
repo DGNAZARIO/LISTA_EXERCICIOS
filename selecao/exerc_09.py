@@ -7,14 +7,9 @@ maca1 = maca * 0.30
 maca2 = maca * 0.25
 
 if maca >= 12:
-    resposta1 = maca1
+    resposta = maca2
 
 else:
-    resposta2 = maca2
+    resposta = maca1
 
-
-if maca:
-    print("Voce comprou ",maca, "maças a ", resposta1, "total e cada uma saiu a 0.25 centavos.")
-
-else:
-    print("Voce comprou ",maca, "maças a", resposta2, "total e cada uma saiu a 0.30 centavos" )
+print("Voce comprou ",maca, "maças a R$",resposta)
