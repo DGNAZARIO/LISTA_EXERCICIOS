@@ -12,4 +12,4 @@ if maca >= 12:
 else:
     resposta = maca1
 
-print("Voce comprou ",maca, "maças a R$",resposta)
+print("Voce comprou ",maca, "maçãs a R$",resposta)
